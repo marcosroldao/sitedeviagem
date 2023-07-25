@@ -10,95 +10,142 @@
 <style>
 
     div{
-        background-color: rgb(56, 104, 146);
+        background-color: #c9ffff;;
         border: 2px solid ;
     }
 
-    section{
-        background-color: blueviolet;
-        border: 2px solid ;
-        grid-column: 1/ -2 ;
-        grid-row:2/3;
-        padding-right: 540px;
-    }
-
-    footer{
-        border: 2px solid ; 
-        background-color: chartreuse;
-        grid-column: 1/ -1;
-        grid-row:-1/-1;
-    }
-
+    
     .grid-wrapper>*{
-        min-height: 50px; 
+        min-height: 100px; 
         border-radius: 4;
         align-items: center;
         display: flex;
-        justify-content: center;
-       
-    
+        justify-content: center;       
         
     }
+
     .grid-wrapper{
         display: grid;
         grid-template-columns: repeat(5,auto) ;
-        grid-template-rows: repeat(5,auto);
-        gap: 0.5rem;
-         
+        grid-template-rows: repeat(6,auto);
+        gap: 0.5rem;  
     }
- 
+
     #nav-1{
-        grid-column: 1/ -1 ;
+        grid-column: 1/ 7 ;
         grid-row:1/2;
-        background-color: chartreuse;
+        background-color: rgb(151, 194, 229);
         border: 2px solid ; 
-        font-size: 25px;
+        font-size: 22px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            
+        
+     
+        
     }
-       
+    
     #nav-2{
         grid-column: 5/ 5;
-        grid-row:2/5;
-        background-color: rgb(51, 201, 206);
+        grid-row:2/4;
         border: 2px solid ;
+        margin-right: 0px;
+        display: flex;
+        flex-wrap: wrap;  
+        
     }
    
     .nav-link{
-         padding-left: 40px;
-         vertical-align:center;
-         margin-top: 20px;
+        margin-left: 60px;
+        margin-top: 20px;
+        background-color: rgb(151, 194, 229);
+    }
  
-
+    .nav-item{}
+ 
+    #brand0{
+        display: flex;
+        justify-content: center;
+      
     }
 
-    article{
-        border: 2px solid;
+
+    #secimag{
+        border: 2px solid ;
+        grid-column: 1/ -2 ;
+        grid-row:2/3;
     }
 
+     
     #brand1{
-        padding-left: 304px;
+        display: flex;
+        justify-content: center;
     }
 
+    section{
+        background-color: #c9ffff;
+        border: 2px solid ;
+        grid-column: 1/ -2;
+        grid-row:3/4;
+        margin-right: 40px;
+        margin-left: 40px;
+        max-height: auto;
+      
+    }
+
+    #container{
+        border: 2px solid;
+        grid-column: 1/-2 ;
+        grid-row:4/5;
+        background-color: #c9ffff;
+
+        
+    }
+
+    footer{
+        
+        display: flex;
+        grid-column: 1/ 6;
+        grid-row:6/-1;
+        text-align: center;
+        padding-left: 30px; 
+        padding-right: 30px;
+        word-break: normal;
+        height: 20px;
+        font-size: 14px;
+        background-color: rgb(151, 194, 229);
+  
+    }
+  
+
+    #rd1{
+        
+        padding-left: 10px;
+        grid-column: 1/ -2;
+        grid-row:5/6;
+        margin-left: 30px;
+        margin-right: 25px;
+    }
+ 
+    .article-img {
+        width: 30%;  
+        padding-left: 50px;
     
-    #brand2{
-        padding-left: -100px;
     }
 
 
+ 
 </style>
-
 
 </head>
 <body>
 
-    <div class="container">
+    <div class="grid-wrapper">
         
-        <nav id="nav-1" class="navbar navbar-expand-lg justify-content-between">
-           
+        <nav id="nav-1" class="navbar">
+            
+           <div> <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\bn1.jpg" style="width: 100%; margin-top: -20px; " class="img-fluid">
             <ul class="nav">
-            <a class="navbar-brand" href="#">
-                <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\icone.png" style="width: 140px;">
+            <a id="brand0" href="#">
+                <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\icone.png" style="width: 120px;" class="img-fluid">
             </a>
                 <li class="nav-item">
                     <a class="nav-link" href="home.html">Home</a>
@@ -112,29 +159,61 @@
                     <a class="nav-link" href="Promoções.html">Promoções</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Contato.html">Contatos</a>
+                    <a class="nav-link" href="Contato.html">Contato</a>
                 </li>
-                <a  id="brand1" href="Contato.html">
-                    <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\icone2.png" style="width: 245px;">
-                </a>
+
             </ul>
+        </div>
    
-        </nav>    
+        </nav>   
+        <section id="secimag">
+            <a id="brand1">
+                <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\img2.png" style="width: 800px;" class="img-fluid">
+            </a>
+        </section> 
         <section>
             
-            <a id="brand2">
-                <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img1.jpg" style="width: 600px;">
-            </a>
-             
+          
+            <article>
+                <p><U><strong>Quem somos nós:</strong></U></p>
+                <p>
+                A Agência de Viagens, Turismo e Excursões <strong>Boa Viagem </strong>foi fundada por <strong>xxxxxxxx</strong>, um amante de viagens. Inicialmente, ele nunca pensou em abrir um negócio nessa área. No entanto, inspirado por suas experiências de viagem, decidiu fazer algo diferente e oferecer serviços de qualidade a preços acessíveis para as pessoas. Ele queria mostrar que é possível desfrutar de passeios e viagens completos, incluindo passagens aéreas, rodoviárias, hotéis, translado e city tours com guias locais.
+                Seu objetivo era proporcionar aos clientes a oportunidade de explorar vários destinos diferentes, muitas vezes não disponíveis em pacotes convencionais. Assim, ele decidiu investir nesse segmento para estar mais próximo de sua paixão por viajar e atender seus clientes com entusiasmo e motivação.      
+             </p></article> 
+            </section>
         
-        
-        </section>
-        <article>article</article>
-        <article>article</article>
-        <article>article</article>
-        <article>article</article>
-        <nav id="nav-2"> <p>esta é uma nav</p></nav>
-        <footer><p>esta é  uma footer</p></footer>
+            <section id="container">
+                <section style="display: flex; justify-content: center; align-items: flex-start; flex-direction: column; height: 100%;">
+                    <h3 style="text-align: center; margin-bottom: 10px; margin-left: 270px;">Comentários:</h3>
+                    <article style="display: flex; justify-content: space-between;">
+                        <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\p1.png" class="img-fluid article-img">
+                        <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\p2.png" class="img-fluid article-img">
+                        <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\p3.png" class="img-fluid article-img">
+                    </article>
+                </section>
+            </section>
+
+
+        <nav id="nav-2"> 
+            <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\pc1.png" style="width: 300px;" class="img-fluid">
+            <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\pc2.png" style="width: 300px;" class="img-fluid">
+            <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\pc3.png" style="width: 300px;" class="img-fluid">
+        </nav>
+
+         <div id="rd1">
+                <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\rd.png" style="width: 1200px;" class="img-fluid">
+        </div>
+       
+        <footer > 
+                <p>Boa viagem é uma marca registrada de boaviagem S.A | CNPJ: xxxx | Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem ser alterados. As fotos contidas nesta página são meramente ilustrativas.Este site trabalha 100% em criptografia SSL. </p></footer>
+           
+        </footer>
+
+                
+
+         
+            
+         
 
     </div>
 
