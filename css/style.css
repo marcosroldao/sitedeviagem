@@ -1,0 +1,38 @@
+.nav{
+         
+    padding-left: 50px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+
+footer, .nav{
+    background-color: rgb(151, 194, 229);
+    color: black;
+}
+
+footer{
+   text-align: center;
+   padding: 5px;
+   font-size: 14px;
+   border-top: solid 1px gray;
+}
+
+
+
+.valorinicio span {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .valorfim span {
+    color: rgb(2, 135, 44);
+    margin: 0;
+  }
+
+
+  .descricaoida span {
+    color: black;
+    margin: 0;
+  }

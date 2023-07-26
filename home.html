@@ -31,19 +31,24 @@
         gap: 0.5rem;  
     }
 
+    .nav{
+        background-color: rgb(0, 217, 255); 
+        padding-left: 50px;
+    }
+    
+
     #nav-1{
         grid-column: 1/ 7 ;
         grid-row:1/2;
-        background-color: rgb(151, 194, 229);
-        border: 2px solid ; 
+        background-color: rgb(0, 217, 255); 
+        border-bottom: 1px solid gray ; 
         font-size: 22px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
-     
-        
     }
     
-    #nav-2{
+        
+    aside{
         grid-column: 5/ 5;
         grid-row:2/4;
         border: 2px solid ;
@@ -59,7 +64,7 @@
         background-color: rgb(151, 194, 229);
     }
  
-    .nav-item{}
+ 
  
     #brand0{
         display: flex;
@@ -68,11 +73,6 @@
     }
 
 
-    #secimag{
-        border: 2px solid ;
-        grid-column: 1/ -2 ;
-        grid-row:2/3;
-    }
 
      
     #brand1{
@@ -80,16 +80,9 @@
         justify-content: center;
     }
 
-    section{
-        background-color: #c9ffff;
-        border: 2px solid ;
-        grid-column: 1/ -2;
-        grid-row:3/4;
-        margin-right: 40px;
-        margin-left: 40px;
-        max-height: auto;
+   
       
-    }
+   
 
     #container{
         border: 2px solid;
@@ -102,17 +95,12 @@
 
     footer{
         
-        display: flex;
-        grid-column: 1/ 6;
-        grid-row:6/-1;
-        text-align: center;
-        padding-left: 30px; 
-        padding-right: 30px;
-        word-break: normal;
-        height: 20px;
-        font-size: 14px;
         background-color: rgb(151, 194, 229);
-  
+        text-align: center;
+        padding: 5px;
+        font-size: 14px;
+        color: black;
+        border-top: solid 1px gray;
     }
   
 
@@ -136,13 +124,8 @@
 </style>
 
 </head>
-<body>
-
-    <div class="grid-wrapper">
-        
+<body> 
         <nav id="nav-1" class="navbar">
-            
-           <div> <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\bn1.jpg" style="width: 100%; margin-top: -20px; " class="img-fluid">
             <ul class="nav">
             <a id="brand0" href="#">
                 <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\icone.png" style="width: 120px;" class="img-fluid">
@@ -163,8 +146,7 @@
                 </li>
 
             </ul>
-        </div>
-   
+        
         </nav>   
         <section id="secimag">
             <a id="brand1">
@@ -194,18 +176,18 @@
             </section>
 
 
-        <nav id="nav-2"> 
+        <aside id="nav-2"> 
             <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\pc1.png" style="width: 300px;" class="img-fluid">
             <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\pc2.png" style="width: 300px;" class="img-fluid">
             <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\pc3.png" style="width: 300px;" class="img-fluid">
-        </nav>
+        </aside>
 
          <div id="rd1">
                 <img src="E:\PROGRAMAÇÃO\1-EXERCICIOS PYTHON\00-Projeto site de viagens\img\rd.png" style="width: 1200px;" class="img-fluid">
         </div>
        
         <footer > 
-                <p>Boa viagem é uma marca registrada de boaviagem S.A | CNPJ: xxxx | Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem ser alterados. As fotos contidas nesta página são meramente ilustrativas.Este site trabalha 100% em criptografia SSL. </p></footer>
+                <p>Boa viagem é uma marca registrada de boaviagem S.A | CNPJ: xxxx | Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem ser alterados. As fotos contidas nesta página são meramente ilustrativas.Este site trabalha 100% em criptografia SSL. </p> 
            
         </footer>
 
