@@ -1,0 +1,158 @@
+.row {
+  width: 100%;
+  background-color: rgb(255, 127, 155);
+  border: 2px solid black;
+}   
+ 
+
+ 
+ .nav{
+         
+  padding-left: 50px;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(151, 194, 229);
+  color: black;
+
+}
+
+ 
+
+
+
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: blueviolet;
+    border: 2px solid red;
+    flex-wrap: wrap; 
+ 
+  }
+
+.item{
+  background-color: rgb(73, 226, 43);
+  border: 2px solid rgb(230, 38, 38);
+  height: 50px;
+  width: 100%; 
+
+
+}
+
+
+
+
+
+#brand{
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  
+}
+
+ 
+.custom-image {
+  width: 700px;
+}
+ 
+
+.card-container{
+  display: flex;  
+  justify-content: center;  
+  gap: 20px;  
+  flex-wrap: wrap;
+ 
+}
+
+
+
+
+
+
+.flex-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0;
+  background-color: rgb(193, 127, 255);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.flex-container > * {
+  max-width: 100%;
+}
+ 
+
+
+
+
+article {
+  word-wrap: break-word;
+  text-align: justify;
+  font-size: 18px;
+  width: 900px; 
+  background-color: brown;
+  position: center;
+
+  
+}
+
+ 
+
+.article-container {
+  padding: 0 15px;  
+  width: 1400px; 
+  margin: 0 auto;  
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+.article-img {
+width: 200px; 
+height: auto; 
+margin-top: 50px;
+margin-bottom: 50px;
+justify-content: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+ 
+#rd{
+
+  border-top: solid 1px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  }
+
+
+  #rd img {
+     width: auto; 
+     height: 80px; 
+}
+ 
+
+
+footer{
+
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  background-color: rgb(151, 194, 229);
+  color: black;
+  
+
+}
+
+ 
