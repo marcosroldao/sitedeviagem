@@ -1,17 +1,26 @@
 
     .row {
         width: 100%;
+        
     }
  
- .nav{
-         
-    padding-left: 5px;
-    font-size: 22px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(151, 194, 229);
-    color: black;
- 
-}
+    .nav{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 5px;
+        font-size: 24px;
+        gap:20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        background-color: rgb(161, 197, 226);
+      
+    }      
+
+
+    .nav-link{
+        color: rgb(59, 47, 47);
+      }
 
 
 .container {
@@ -26,7 +35,7 @@
             display: flex;
             align-items: center;  
             justify-content: center;  
-            background-color:rgb(211, 205, 205);
+            background-color:rgb(205, 227, 233);
             height: 100%;
             padding-top: 20px;
             padding-bottom: 70px
@@ -50,8 +59,8 @@
 
         main textarea {
             flex: 1;  
-            background-color: #7ab17a;
-            width: 100%;
+            background-color: white;
+            width: 80%;
             height: 100px;
           
         }
@@ -79,13 +88,10 @@
         text-align: center;
         padding: 5px;
         font-size: 14px;
-        background-color: rgb(151, 194, 229);
+        background-color: rgb(161, 197, 226);
         color: black;
         position: flex;
-        bottom: 0;
-        width: 100%;
-        z-index: 9999;
-     
+        border-top: solid 1px gray;
 }
  
 
