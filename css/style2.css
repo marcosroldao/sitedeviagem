@@ -18,8 +18,15 @@
     }      
 
 
+    body {
+        background-color: rgb(205, 227, 233);
+    }
+
+
     .nav-link{
         color: rgb(59, 47, 47);
+        text-decoration: underline;
+        text-decoration-thickness: 1px
       }
 
 
@@ -83,17 +90,18 @@
            
         }
 
-    footer{
+        footer {
+            text-align: center;
+            padding: 5px;
+            padding-top: 15px;
+            font-size: 14px;
+            background-color: rgb(161, 197, 226);
+            color: black;
+            position: fixed; /* Change 'flex' to 'fixed' */
+            bottom: 0;
+            width: 100%;
+            border-top: solid 1px gray;
 
-        text-align: center;
-        padding: 5px;
-        font-size: 14px;
-        background-color: rgb(161, 197, 226);
-        color: black;
-        position: flex;
-        border-top: solid 1px gray;
-}
- 
-
+        }
 
  

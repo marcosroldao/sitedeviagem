@@ -25,9 +25,13 @@
         padding-left: 5px;
     }
     
+
     .nav-link{
         color: rgb(59, 47, 47);
+        text-decoration: underline;
+        text-decoration-thickness: 1px
       }
+
     #nav-1{
         grid-column: 1/ 7 ;
         grid-row:1/2;

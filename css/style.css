@@ -13,8 +13,11 @@
 }      
 
 
+
 .nav-link{
   color: rgb(59, 47, 47);
+  text-decoration: underline;
+  text-decoration-thickness: 1px
 }
 
 body{
