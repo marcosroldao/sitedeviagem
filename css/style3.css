@@ -1,0 +1,85 @@
+ 
+
+.nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 27px;  
+    gap:35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color: rgb(161, 197, 226);
+    border-bottom: solid 1px gray;
+   
+  
+  }
+  
+  
+  .nav-link{
+    color: rgb(59, 47, 47);
+    text-decoration: underline;
+    text-decoration-thickness: 1px
+  }
+  
+  
+   
+ 
+
+.loguin-img {
+    margin-left: 140px;
+    margin-right: auto;
+    width: 180px;
+    height: auto;
+    display: block;
+}
+
+
+.loguin-img2 {
+    justify-content: left;
+    margin-right: auto;
+    width: 180px;
+    height: auto;
+    display: block;
+}
+
+
+@media (max-width: 767px) {
+    .loguin-img {
+        margin-left: 0;
+    }
+}
+ 
+ 
+.font-increase {
+    font-size: 18px;
+}
+
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(151, 194, 229);
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    color: black;
+    border-top: solid 1px gray;
+}
+
+
+.create-account {
+    color: red;
+}

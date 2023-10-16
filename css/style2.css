@@ -50,7 +50,8 @@
         }
 
         main fieldset {
-            border: 2px solid black;  
+            border: 2px solid black; 
+            padding-left: 20px;
           
         }
 
@@ -97,11 +98,58 @@
             font-size: 14px;
             background-color: rgb(161, 197, 226);
             color: black;
-            position: fixed; /* Change 'flex' to 'fixed' */
-            bottom: 0;
-            width: 100%;
+          
             border-top: solid 1px gray;
 
         }
 
- 
+        .loguin-img {
+            margin-left:500px;
+            width: auto;
+            height: 40px;
+            min-height: var(--size-height-small);
+            padding: 4px;
+          }
+          
+          
+           
+          @media (max-width: 1300px) {
+            .loguin-img {
+              margin-left: 0;  
+              margin-right: 0;  
+            }
+          }
+          
+
+
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        main {
+            flex: 1;  
+            background-color: rgb(205, 227, 233);
+            padding-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;  
+        }
+
+
+       
+@media (max-width: 1200px) {
+    main {
+        margin-top: 190px;  
+    }
+}
