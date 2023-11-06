@@ -1,0 +1,116 @@
+    div{
+        background-color: #c9ffff;;
+        border: 2px solid ;
+    }
+
+    
+    .grid-wrapper>*{
+        min-height: 100px; 
+        border-radius: 4;
+        align-items: center;
+        display: flex;
+        justify-content: center;       
+        
+    }
+
+    .grid-wrapper{
+        display: grid;
+        grid-template-columns: repeat(5,auto) ;
+        grid-template-rows: repeat(6,auto);
+        gap: 0.5rem;  
+    }
+
+    .nav{
+        background-color: rgb(0, 217, 255); 
+        padding-left: 5px;
+    }
+    
+
+    .nav-link{
+        color: rgb(59, 47, 47);
+        text-decoration: underline;
+        text-decoration-thickness: 1px
+      }
+
+    #nav-1{
+        grid-column: 1/ 7 ;
+        grid-row:1/2;
+        background-color: rgb(0, 217, 255); 
+        border-bottom: 1px solid gray ; 
+        font-size: 22px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    
+        
+    aside{
+        grid-column: 5/ 5;
+        grid-row:2/4;
+        border: 2px solid ;
+        margin-right: 0px;
+        display: flex;
+        flex-wrap: wrap;  
+        
+    }
+   
+    .nav-link{
+        margin-left: 60px;
+        margin-top: 20px;
+        background-color: rgb(151, 194, 229);
+    }
+ 
+ 
+ 
+    #brand0{
+        display: flex;
+        justify-content: center;
+      
+    }
+
+
+
+     
+    #brand1{
+        display: flex;
+        justify-content: center;
+    }
+
+   
+      
+   
+
+    #container{
+        border: 2px solid;
+        grid-column: 1/-2 ;
+        grid-row:4/5;
+        background-color: #c9ffff;
+
+        
+    }
+
+    footer{
+        
+        background-color: rgb(151, 194, 229);
+        text-align: center;
+        padding: 5px;
+        font-size: 14px;
+        color: black;
+        border-top: solid 1px gray;
+    }
+  
+
+    #rd1{
+        
+        padding-left: 10px;
+        grid-column: 1/ -2;
+        grid-row:5/6;
+        margin-left: 30px;
+        margin-right: 25px;
+    }
+ 
+    .article-img {
+        width: 30%;  
+        padding-left: 50px;
+    
+    }
+
