@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style6.css">
+    <script src="./assets/js/cronometro.js"></script>
+
+
+</head>
+
+
+
+
+
+	<nav>
+		<div>
+			<ul class="nav ">
+				<a class="navbar-brand" id="brand0" href="index.html">
+					<img src=" ./assets/img/icone.png" style="width: 120px;" class="img-fluid img-nav">
+				</a>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="Destino.html">Destinos</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="Promoções.html">Promoções</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Contato.html">Contato</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="usuario " style="color: red">Usuarios</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="reserva"  style="color: red">Reservas</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="passagem"  style="color: red">Passagens</a>
+				</li>
+				
+				<li>
+					<a href="./views/usuarios/create.html">
+						<img src="./assets/img/cadastrar.png" class="img-fluid loguin-img">
+					</a>
+				</li>
+
+
+				
+
+			</ul>
+
+
+		</div>
+	</nav>
+
+
+
+<br>
+
+    <h3 class="labeltext_1"> Falta pouco! Complete seus dados e finalize sua
+        compra. </h3>
+
+    <span class="labeltext_2">Boa escolha! Você selecionou uma viagem com a Boa viagem turismo! Não perca
+        esta oportunidade! Confirme agora a sua reserva.</span>
+    <br></br>
+    <fieldset class="bordered-fieldset">
+        <h4>Preço final:<p class="labelpreco"> <span>R$ 2.800,00  </span></p>  </h4>  </fieldset>
+
+    
+
+
+    <fieldset>
+        <div class="alert alert-danger bordered-fieldset" >
+            <strong>Promoção encerra em:</strong>
+            <span id="cronometro"></span>
+        </div>
+
+
+    </fieldset>
+
+    <form>
+
+
+
+            <fieldset class="bordered-fieldset">
+                <p>
+                    <legend><h3>Como você quer pagar?</h3></legend>
+                        <p>
+                            <input type="radio" id="c" value="cartao" name="cartao">
+                            <label for="cartao">Cartão de crédito</label>
+                        </p>
+
+
+                        <input type="radio" id="p" value="pix" name="pix">
+                        <label for="pix">Pix</label>
+                </p>
+
+
+                <input type="radio" id="b" value="boleto" name="boleto">
+                <label for="boleto">boleto</label></p>
+
+
+            </fieldset>
+
+     
+            <fieldset class="bordered-fieldset">
+
+                <legend><h3>Complete com os dados do cartão:</h3></legend>
+
+                <p><labelfor="numero">Número*:</labelfor=><input   class="space_a"  type="text" placeholder="informe o numero do cartão" numero="numero"
+                        required>
+                </p>
+
+                
+                <p><label for="titular">Titular*:</label><input  class="space_a" type="text" placeholder="como aparece no cartão" titular="titular"
+                    required>
+                </p>
+
+                <p><label for="cpf">Cpf*:</label><input  class="space_b" type="text" placeholder="Ex: 03899101171" cpf="cpf"
+                    required>
+                </p>
+
+                <p><label for="vencimento">Vencimento*:</label><input  class="space_b" type="numero" placeholder="Ex: 08/23" vencimento="vencimento"
+                    required>
+                </p>
+
+                <p><label for="codigo">Cód de segurança*:</label><input  class="space_b" type="codigo" placeholder="Ex: 604" codigo="codigo"
+                    required>
+                </p>
+
+                <p class="labeltext_3"> Campos Obrigatorios*</p>
+
+                <input type="submit" value="Enviar">
+    
+     
+
+            </fieldset>
+
+
+
+ 
+
+
+
+
+            </form>
+
+
+
+
+
+</body>
+
+
+
+<footer>
+    <p>Boa viagem é uma marca registrada de boaviagem S.A | CNPJ: xxxx | Todos os direitos reservados. Os preços
+        anunciados neste site ou via e-mail promocional podem ser alterados. As fotos contidas nesta página são
+        meramente ilustrativas.Este site trabalha 100% em criptografia SSL. </p>
+
+</footer>
+
+
+</html>

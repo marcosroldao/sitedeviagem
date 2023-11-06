@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Destino</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style0.css">
+	<script src="./js/formatardata.js"></script>
+
+
+</head>
+
+<body>
+
+	<nav>
+		<div>
+			<ul class="nav ">
+				<a class="navbar-brand" id="brand0" href="index.html">
+					<img src=" ./assets/img/icone.png" style="width: 120px;" class="img-fluid img-nav">
+				</a>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="Destino.html">Destinos</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="Promoções.html">Promoções</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Contato.html">Contato</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="usuario " style="color: red">Usuarios</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="reserva" style="color: red">Reservas</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="passagem" style="color: red">Passagens</a>
+				</li>
+
+				
+ 				<li>
+					<a href="views/usuarios/create.html">
+						<img src="./assets/img/cadastrar.png" class="img-fluid loguin-img">
+					</a>
+				</li>
+
+
+
+			</ul>
+
+
+		</div>
+	</nav>
+
+
+	<main class="container mt-2">
+		<div class="row">
+			<div class="col ml-auto color-txt">
+				<h4>Reservar pacote</h4>
+			</div>
+		</div>
+		<form class="row border border-dark rounded p-2 mb-4">
+			<div class="col">
+				<label for="cidadePartida"><strong>Origem:</strong></label>
+				<input type="text" class="form-control small-text" id="cidadePartida"
+					placeholder="Digite a cidade de partida">
+			</div>
+			<div class="col">
+				<label for="destino"><strong>Destino:</strong></label>
+				<input type="text" class="form-control small-text" id="destino" placeholder="Digite o destino">
+			</div>
+			<div class="col mx-1">
+				<label for="dataIda" class="mr-2"><strong>Data de ida:</strong></label>
+				<input type="date" class="form-control small-input" id="dataIda" lang="pt-BR">
+			</div>
+			<div class="col mx-1">
+				<label for="dataVolta" class="mr-2"><strong>Data de volta:</strong></label>
+				<input type="date" class="form-control small-input" id="dataVolta" lang="pt-BR">
+			</div>
+			<div class="col mx-1 mt-3">
+				<a href="comprar.html" class="btn btn-danger">Comprar</a>
+			</div>
+		</form>
+
+		<div class="row g-5">
+			<div class="col-12 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/salvador.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Salvador, Bahia.</h5>
+						<p class="card-text">Uma cidade histórica e vibrante, repleta de cultura, música e praias
+							deslumbrantes.</p>
+						<a href="salvador.html" class="btn btn-primary">Saiba mais</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/buzios.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Búzios, Rio de Janeiro.</h5>
+						<p class="card-text">Encantadora cidade litorânea no Brasil, famosa por suas praias
+							deslumbrantes e atmosfera sofisticada.</p>
+						<a href="buzios.html" class="btn btn-primary">Saiba mais</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/puntacana.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Punta Cana, Rep. Dominicana.</h5>
+						<p class="card-text">Paraíso caribenho com praias deslumbrantes, resorts luxuosos e águas
+							cristalinas convidativas.</p>
+						<a href="puntacana.html" class="btn btn-primary">Saiba mais</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p></p>
+		<div class="row g-5">
+			<div class="col-12 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/bariloche.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Bariloche, Argentina.</h5>
+						<p class="card-text">Deslumbrante cidade argentina cercada por montanhas, lagos e paisagens
+							magníficas.</p>
+						<a href="bariloche.html" class="btn btn-primary">Saiba mais</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/foz.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Foz do Iguaçu, Paraná.</h5>
+						<p class="card-text">Destino turístico impressionante com majestosas cataratas e belezas
+							naturais deslumbrantes.</p>
+						<a href="foz.html" class="btn btn-primary">Saiba mais</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/florianopolis.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Florianopolis, Santa Catarina.</h5>
+						<p class="card-text">Ilha encantadora com praias exuberantes, cultura vibrante e rica
+							gastronomia regional.</p>
+						<a href="floripa.html" class="btn btn-primary">Saiba mais</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<p>Boa viagem é uma marca registrada de boaviagem S.A | CNPJ: xxxx | Todos os direitos reservados. Os preços
+			anunciados neste site ou via e-mail promocional podem ser alterados. As fotos contidas nesta página são
+			meramente ilustrativas. Este site trabalha 100% em criptografia SSL.</p>
+	</footer>
+</body>
+
+</html>
